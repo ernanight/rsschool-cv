@@ -18,6 +18,33 @@ Mu goal is to become a front-end junior developer, improve knowledge in HTML and
 * HTML
 * CSS
 
+## Sample test
+const assert = require("chai").assert;
+
+describe("Multiply", () => {
+  it("fixed tests", () => {
+    assert.strictEqual(multiply(1,1), 1);
+    assert.strictEqual(multiply(2,1), 2);
+    assert.strictEqual(multiply(2,2), 4);
+    assert.strictEqual(multiply(3,5), 15);   
+  });
+});
+
+## Solution of the test
+
+function multiply(a, b){
+  return a * b
+}
+
+### Education
+* Volga Academy of Education and Arts
+- Foreign philology
+
+### Languages
+* Russian - Native speaker
+* English - B2
+* French - A1
+
 
 
 
